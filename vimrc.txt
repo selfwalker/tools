@@ -1,0 +1,25 @@
+set history=50          " keep 50 lines of command line history
+set ruler               " show the cursor position all the time
+syntax on
+set incsearch
+set tabstop=4
+set softtabstop=4
+set expandtab
+set shiftwidth=4
+set autoindent
+set cindent
+set cinoptions={0,1s,t0,n-2,p2s,(03s,=.5s,>1s,=1s,:1s
+
+set encoding=utf-8
+set fenc=cp936
+set fileencodings=utf-8
+set fileencodings=utf-8,cp936,ucs-bom
+
+set nu
+set hlsearch
+syntax on
+set bg=dark
+set showmode
+
+set tags=tags;
+set autochdir
